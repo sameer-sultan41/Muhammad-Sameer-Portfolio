@@ -21,8 +21,8 @@ const Contact = (props) => {
         setLoading(true);
 
         const data = {
-            name,
-            email,
+            to_name: name,
+            from_email:email,
             subject,
             message,
         };
