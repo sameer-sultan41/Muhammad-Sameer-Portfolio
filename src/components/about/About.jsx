@@ -20,18 +20,16 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">
-                            Hello! I'm Greg, and I'm based in Johannesburg, South Africa. I studied at Varisty College Sandton, where I completed my diploma in Software Development.<br /><br />
-                            Fastforward to today, and I can honestly say it's been a beautiful journery and I hope to grow even further as Software Engineer. My current focus these days
-                            is on expanidng my portfolio by building more projects that I can add on here, as well as being a great team player at my current role.<br /><br />
-                            Here are a few technologies I’ve been working with recently:
-                        </p>
+                        Hello! I’m Muhammad Sameer, a passionate Full-Stack developer dedicated to creating user-focused and visually engaging web experiences. Proficient in Next JS , React JS, JavaScript, SASS, Python, and Tailwind, I specialize in designing responsive, performance-optimized, and cross-browser compatible websites. I thrive on translating complex designs into dynamic web pages and eagerly embrace opportunities to expand my skills and contribute to innovative web development projects.      </p>
                         <ul className="about__list">
+                            <li>Next JS</li>
                             <li>JavaScript (ES6+)</li>
                             <li>TypeScript</li>
                             <li>React</li>
                             <li>Node.js</li>
+                            <li>Python</li>
+                            <li>Django</li>
                             <li>Postgres SQL</li>
-                            <li>NestJS</li>
                         </ul>
                         <button className="btn" onClick={downloadResume}>Donwload CV</button>
                     </div>
